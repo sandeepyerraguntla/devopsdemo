@@ -1,4 +1,4 @@
-FROM tomcat:8-jre7
+FROM tomcat:latest
 
 MAINTAINER Sandeep "sandeep_yerraguntla@optum.com"
 
