@@ -1,8 +1,8 @@
 FROM tomcat:8-jre7
 
-COPY /myapp.war /usr/local/tomcat/webapps/mywebapp.war
+MAINTAINER Sandeep "sandeep_yerraguntla@optum.com"
 
-EXPOSE 8080
+COPY /myapp.war /usr/local/tomcat/webapps/mywebapp.war
 
 CMD ["catalina.sh", "run"]
 
