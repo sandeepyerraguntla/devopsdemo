@@ -1,5 +1,3 @@
-USER ROOT
-
 FROM tomcat:8-jre7
 
 MAINTAINER Sandeep "sandeep_yerraguntla@optum.com"
